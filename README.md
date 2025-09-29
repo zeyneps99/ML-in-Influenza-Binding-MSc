@@ -7,7 +7,12 @@ This repository accompanies the MSc dissertation *"Investigating the Utility of 
 ## Overview
 
 Zoonotic influenza A viruses, especially H5 and H7 subtypes, pose significant pandemic risks due to their potential to cross species barriers. The hemagglutinin (HA) protein plays a central role in host specificity by binding to sialic acid receptors.  
-This project evaluates the ability of machine learning (ML) algorithms to predict glycan specificity (avian α2,3 vs human α2,6 binding) using viral sequence data, and identifies key mutations associated with receptor adaptation.
+This project evaluates the ability of machine learning (ML) algorithms to predict glycan specificity (avian α2,3 vs human α2,6 binding) using viral sequence data.
+
+Goals:
+- Compare ML classifiers (Logistic Regression, SVC, Random Forest, XGBoost).  
+- Identify key HA mutations linked to host specificity.  
+- Evaluate predictive accuracy and feature importance.  
 
 ---
 
@@ -28,18 +33,6 @@ This project evaluates the ability of machine learning (ML) algorithms to predic
 │
 └── README.md                      # Project documentation                                 
 ```
-
----
-
-## Overview
-
-This project investigates whether machine learning (ML) algorithms can predict glycan specificity (avian α2,3 vs human α2,6 binding) from influenza A HA protein sequences.  
-
-Goals:
-- Compare ML classifiers (Logistic Regression, SVC, Random Forest, XGBoost).  
-- Identify key HA mutations linked to host specificity.  
-- Evaluate predictive accuracy and feature importance.  
-
 ---
 ## Workflow
 
