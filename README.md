@@ -85,10 +85,10 @@ Full results with figures are available in:
 Sümer, S. Z. (2024). Investigating the Utility of Machine Learning Algorithms in Glycan-Specificity in Influenza A. MSc Dissertation, King’s College London.
 
 Data Sources & Tools
-	•	GISAID. EpiFlu Database. https://www.gisaid.org/
-	•	Edgar, R. C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res, 32(5), 1792–1797.
-	•	Almagro Armenteros, J. J. et al. (2019). SignalP 5.0 improves signal peptide predictions using deep neural networks. Nat Biotechnol, 37, 420–423.
-	•	Pedregosa, F. et al. (2011). Scikit-learn: Machine learning in Python. JMLR, 12, 2825–2830.
-	•	Chen, T. & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. KDD ’16, 785–794.
+	-	GISAID. EpiFlu Database. https://www.gisaid.org/
+	-	Edgar, R. C. (2004). MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res, 32(5), 1792–1797.
+	-	Almagro Armenteros, J. J. et al. (2019). SignalP 5.0 improves signal peptide predictions using deep neural networks. Nat Biotechnol, 37, 420–423.
+	-	Pedregosa, F. et al. (2011). Scikit-learn: Machine learning in Python. JMLR, 12, 2825–2830.
+	-	Chen, T. & Guestrin, C. (2016). XGBoost: A scalable tree boosting system. KDD ’16, 785–794.
 
 This list is not exhaustive. The full set of references is available in the dissertation (.pdf/.md file).
