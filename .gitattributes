@@ -1,2 +1,20 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Ignore data and docs in language stats
+data/**                       linguist-vendored
+results/**                    linguist-documentation
+pdb/**                        linguist-vendored
+*.pdf                         linguist-documentation
+*.docx                        linguist-documentation
+*.fasta                       linguist-data
+*.aln                         linguist-data
+*.fa                          linguist-data
+*.txt                         linguist-documentation
+
+# Force notebook language
+notebooks/*.ipynb linguist-language=Jupyter Notebook
+
+# If any odd extensions cause misclassification, force Python:
+# (uncomment and point to real paths/files)
+# scripts/*                    linguist-language=Python
+# tools/*                      linguist-language=Python
