@@ -160,7 +160,7 @@ populations, and their identification is essential for guiding
 preventive measures and treatment
 strategies.
 
-![](../figures/Fig1.png)
+![](./figures/Fig1.png)
 
 Figure 1 \| HA structure of an Influenza A virus. 1) HA is a trimeric
 glycoprotein consisting of two domains: globular and stalk. 2a) HA
@@ -256,7 +256,7 @@ Google Colab environment to assess their predictive accuracy. The
 following subsections describe the key steps involved, including (1)
 dataset formation, (2) feature engineering, (3) model construction &
 prediction and (4) evaluation (Figure 2).
-![](../figures/Fig2.jpg)
+![](./figures/Fig2.jpg)
 
 Figure 2 \| Schematic representation of the machine learning pipeline
 used in this study.
@@ -274,7 +274,7 @@ Data from the 1900s onwards was sourced from GISAID\'s EpiFlu database
 (Figure 3), focusing on HA protein sequences of the H3, H5, and H7
 subtypes. A total of 17,106 initial sequences from both human and avian
 hosts were collected in FASTA format for
-analysis.![](../figures/Fig3)
+analysis.![](./figures/Fig3)
 
 Figure 3 \| GISAID\'s EpiFlu Search & Browse interface displaying the
 applied filters for Influenza A H3 HA sequences from human hosts.
@@ -579,7 +579,7 @@ $y_{i}(w\  \cdot \ x_{i} + b)\  \geq \ 1$ (5)
 where $y_{i}$ is the label of the data point $x_{i}$ (either +1 or -1
 for the two
 classes)[^91--93^](https://www.zotero.org/google-docs/?yRLd4q) (see
-Figure 4).![](../figures/Fig4)
+Figure 4).![](./figures/Fig4)
 
 Figure 4 \| Class separation in SVC with a linear kernel
 [^92^](https://www.zotero.org/google-docs/?XrEdcp)
@@ -629,7 +629,7 @@ hyperparameters such as the number of estimators (trees), maximum depth
 of each tree, the minimum number of samples required to split an
 internal node, and the minimum number of samples required to be at a
 leaf node being fine-tuned to balance model complexity and overfitting.
-![](../figures/Fig5.png)
+![](./figures/Fig5.png)
 
 Figure 5 \| Visualisation of the random forest
 algorithm[^94^](https://www.zotero.org/google-docs/?nqeWse)
@@ -652,7 +652,7 @@ $\ ŷ\  = \ \sum_{k\  = \ 1}^{K}{}f_{k}(x)$ (7)
 where $\ ŷ$ ​is the predicted value, $K$ is the number of trees, and
 $f_{k}(x)$ is the output of the $k$-th tree for the input features
 $x$[^97^](https://www.zotero.org/google-docs/?qDWxfq).
-![](../figures/Fig6.png)
+![](./figures/Fig6.png)
 
 Figure 6 \| XGBoost tree ensemble
 model.[^97^](https://www.zotero.org/google-docs/?7cSuSJ)
@@ -755,7 +755,7 @@ for model training. After applying SMOTE, the total number of sequences
 increased to 9,964 (see Figure 7). However, a slight imbalance still
 persisted in the H3 dataset between human and avian hosts, which will be
 taken into account during the following stages of
-analysis.![](../figures/Fig7.png)
+analysis.![](./figures/Fig7.png)
 
 Figure 7 \| Avian and human host ratios of the (a) training and (b)
 testing data sets.
@@ -984,7 +984,7 @@ underlying mechanisms being modelled. The variations in their
 importance, especially when considering both base and polynomial
 features, provide valuable insights into how these mutations may
 interact with other factors and influence the overall model
-behaviour.![](../figures/Fig8.png)
+behaviour.![](./figures/Fig8.png)
 
 > Figure 8 \| Feature Importance Comparison Across Models
 
